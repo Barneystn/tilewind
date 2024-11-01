@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+    .join {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .join-item {
+        width: 100%;
+    }
+
+    .indicator-item {
+        margin: 0;
+    }
+}

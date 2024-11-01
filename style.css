@@ -10,7 +10,7 @@
         flex-direction: row; /* حفظ چینش افقی در دستگاه‌های کوچک */
         align-items: center;
         gap: 10px;
-        justify-content: flex-end; /* تنظیم برای قرارگیری در سمت راست */
+        justify-content: center; /* تنظیم برای قرارگیری در سمت راست */
     }
 
     .join-item {

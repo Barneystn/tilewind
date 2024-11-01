@@ -20,4 +20,12 @@
     .indicator-item {
         margin: 0;
     }
+
+    #search-input {
+        width: 120px; /* تنظیم عرض کوچکتر برای دستگاه‌های موبایل */
+    }
+}
+
+#search-input {
+    width: 150px; /* تنظیم عرض به مقدار دلخواه */
 }

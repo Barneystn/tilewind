@@ -7,18 +7,17 @@
 
 @media (max-width: 600px) {
     .join {
-        flex-direction: column;
-        align-items: flex-end; /* تنظیم برای قرارگیری در سمت راست در موبایل */
+        flex-direction: row; /* حفظ چینش افقی در دستگاه‌های کوچک */
+        align-items: center;
         gap: 10px;
+        justify-content: flex-end; /* تنظیم برای قرارگیری در سمت راست */
     }
 
     .join-item {
-        width: 100%;
+        width: auto; /* تنظیم عرض خودکار */
     }
 
     .indicator-item {
         margin: 0;
-        width: auto; /* تنظیم عرض خودکار برای هماهنگی بهتر */
     }
 }
-

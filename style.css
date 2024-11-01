@@ -6,11 +6,19 @@
         gap: 10px;
     }
 
+    .join {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: flex-start; /* قرارگیری کل بخش در سمت چپ */
+    }
+
     .join-item {
         width: 100%;
     }
 
     .indicator-item {
         margin: 0;
+        width: auto; /* تنظیم عرض خودکار برای هماهنگی بهتر */
     }
 }

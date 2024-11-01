@@ -10,7 +10,7 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        justify-content: flex-start; /* قرارگیری کل بخش در سمت چپ */
+        justify-content: flex-end; /* قرارگیری کل بخش در سمت چپ */
     }
 
     .join-item {

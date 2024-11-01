@@ -1,16 +1,15 @@
+.join {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end; /* قرارگیری کل بخش در سمت راست */
+}
+
 @media (max-width: 600px) {
     .join {
-        display: flex;
         flex-direction: column;
-        align-items: stretch;
+        align-items: flex-end; /* تنظیم برای قرارگیری در سمت راست در موبایل */
         gap: 10px;
-    }
-
-    .join {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        justify-content: flex-end; /* قرارگیری کل بخش در سمت چپ */
     }
 
     .join-item {
@@ -22,3 +21,4 @@
         width: auto; /* تنظیم عرض خودکار برای هماهنگی بهتر */
     }
 }
+

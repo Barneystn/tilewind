@@ -1,11 +1,3 @@
-.rbn {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: flex-end; /* قرارگیری کل بخش در سمت راست */
-    margin-right: 20px;
-}
-
 .join {
     display: flex;
     align-items: center;

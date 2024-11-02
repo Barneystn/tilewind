@@ -38,3 +38,23 @@
 #search-input {
     width: 150px; /* تنظیم عرض به مقدار دلخواه */
 }
+
+/* تنظیمات مخصوص موبایل */
+@media (max-width: 600px) {
+    .meo {
+        flex-direction: row; /* حفظ چینش افقی در دستگاه‌های کوچک */
+        align-items: center;
+        gap: 4px;
+        justify-content: center; /* تنظیم برای قرارگیری در سمت راست */
+    }
+  
+    .btn {
+      padding: 6px 12px; /* کوچک‌تر کردن دکمه برای موبایل */
+      font-size: 14px; /* کاهش سایز متن */
+    }
+  
+    .icon {
+      width: 12px; /* کوچک‌تر کردن اندازه آیکون‌ها */
+      height: 12px;
+    }
+  }
